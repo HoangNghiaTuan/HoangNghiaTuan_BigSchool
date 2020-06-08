@@ -14,6 +14,7 @@ namespace HoangNghiaTuan_BigSchool.ViewModels
         [FutureDate]
         [Required]
         public string Date { get; set; }
+        [ValidTime]
         [Required]
         public string Time { get; set; }
         [Required]
